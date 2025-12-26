@@ -31,12 +31,12 @@ export const MagicProvider = ({ children }: any) => {
         customNodeOptions.chainId = 80001;
       }
 
-      setMagic(
-        new Magic(process.env.NEXT_PUBLIC_MAGIC_PUB_KEY, {
-          network: customNodeOptions,
-          extensions: [new OAuthExtension()],
-        })
-      );
+      // setMagic(
+      //   new Magic(process.env.NEXT_PUBLIC_MAGIC_PUB_KEY, {
+      //     network: customNodeOptions,
+      //     extensions: [new OAuthExtension()],
+      //   })
+      // );
     }
   }, []);
 

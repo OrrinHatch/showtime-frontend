@@ -4,9 +4,8 @@
   "eslint.validate": ["javascript", "javascriptreact"],
   "eslint.format.enable": true,
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true,
-    // already have a Prettier plugin, so don't need this.
-    "source.organizeImports": false
+    "source.fixAll.eslint": "explicit",
+    "source.organizeImports": "never"
   },
   "tailwindCSS.classAttributes": ["class", "className", "ngClass", ".*Tw"],
   "explorer.fileNesting.enabled": true,

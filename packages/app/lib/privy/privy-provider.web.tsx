@@ -36,7 +36,8 @@ export const PrivyProvider = ({ children }: any) => {
 
   return (
     <PrivyProviderImpl
-      appId={process.env.NEXT_PUBLIC_PRIVY_APP_ID}
+      // appId={process.env.NEXT_PUBLIC_PRIVY_APP_ID}
+      appId="cmj9lzw3o01dajl0cq39u6eak"
       config={{
         loginMethods: loginMethods,
         defaultChain: baseChain,
